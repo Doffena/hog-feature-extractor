@@ -1,11 +1,7 @@
 # HOG (Histogram of Oriented Gradients) Computer Vision Homework
 
-**Ostim Teknik Üniversitesi - Yapay Zeka Mühendisliği Bölümü**  
-**Bilgisayarla Görü - Ödev 4**
 
 Hazırlayan: Burak Avcı  
-Öğrenci No: 220212026  
-Öğretim Görevlisi: Dr. RAMİN ABBASZADİ
 
 ---
 
