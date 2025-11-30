@@ -1,0 +1,25 @@
+# HOG Computer Vision Homework - Requirements
+# Python 3.8+ gereklidir
+
+# Temel bilimsel hesaplama
+numpy>=1.21.0
+
+# Görüntü işleme
+opencv-python>=4.5.0
+scikit-image>=0.18.0
+pillow>=8.0.0
+
+# Makine öğrenmesi
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# Görselleştirme
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Jupyter Notebook desteği
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Not: Tüm kütüphaneler Python 3.8, 3.9, 3.10 ve 3.11 ile uyumludur
+# Kurulum: pip install -r requirements.txt
