@@ -503,49 +503,6 @@ Classification Report:
     positive       1.00      0.88      0.93        16
 ```
 
-#### Önemli Notlar
-
-- **İlk çalıştırmada:** Model eğitimi birkaç dakika sürebilir
-- **Sonraki çalıştırmalarda:** Eğitilmiş model varsa direkt kullanılır
-- **Karşılaştırma:** Her iki implementasyon da aynı sonuçları verir (95.65% accuracy)
-
-## Rapor Grafikleri
-
-Rapor için profesyonel grafikler oluşturma.
-
-### Çalıştırma
-
-```bash
-python report/generate_figures.py
-```
-
-### Oluşturulan Grafikler
-
-1. **Figure 1**: Confusion Matrix (scikit-image HOG)
-2. **Figure 2**: Confusion Matrix (Custom HOG)
-3. **Figure 3**: Accuracy Comparison (Bar Chart)
-4. **Figure 4**: Precision, Recall, F1-Score by Class
-5. **Figure 5**: Dataset Distribution (Pie Chart)
-6. **Figure 6**: Training vs Test Accuracy
-7. **Figure 7**: Human Detection Statistics
-8. **Figure 8**: HOG Parameter Effects
-9. **Figure 9**: Overall Performance Metrics
-10. **Figure 10**: Class Performance Comparison
-
-### Çıktı
-
-Tüm grafikler `report/figures/` klasörüne kaydedilir:
-- **Format**: PNG
-- **Çözünürlük**: 300 DPI (yüksek kalite)
-- **Boyut**: Optimize edilmiş (rapor için uygun)
-
-### Grafikleri Raporunuza Ekleme
-
-Grafikler LaTeX/Overleaf ile uyumludur:
-```latex
-\includegraphics[width=0.8\textwidth]{report/figures/figure1_confusion_matrix_skimage.png}
-```
-
 ## Özellikler
 
 ### Problem 1 Özellikleri
@@ -633,34 +590,6 @@ data/training_set/
 ├── negative/    # Sınıf 0 görüntüleri
 └── positive/    # Sınıf 1 görüntüleri
 ```
-
-## Sorun Giderme
-
-### Import Hataları
-Eğer relative import hataları alırsanız:
-```bash
-# Direkt script olarak çalıştırın
-python src/hog_implementation.py
-python src/object_detection.py
-python src/classification.py
-```
-
-### Model Bulunamadı
-Eğer eğitilmiş model bulunamazsa:
-- Problem 2: Önce modeli eğitin (menüden seçenek 2)
-- Problem 3: Önce sınıflandırma deneyini çalıştırın
-
-### Görüntü Yükleme Hataları
-- Görüntü formatlarını kontrol edin (.jpg, .jpeg, .png)
-- Dosya yollarının doğru olduğundan emin olun
-- Görüntülerin bozuk olmadığını kontrol edin
-
-##  Notlar
-
-- Tüm kod Türkçe yorumlar içerir
-- Menü sistemi kullanıcı dostu arayüz sağlar
-- Çıktılar otomatik olarak organize edilir
-- Detaylı istatistikler ve analizler sağlanır
 
 ##  Referanslar
 
