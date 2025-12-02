@@ -1,4 +1,4 @@
-# HOG (Histogram of Oriented Gradients) Computer Vision Homework
+# HOG (Histogram of Oriented Gradients) Computer Vision
 
 
 Hazırlayan: Burak Avcı  
@@ -39,7 +39,7 @@ python report/generate_figures.py
 
 ## Proje Özeti
 
-Bu ödev üç ana problemden oluşmaktadır:
+Üç ana problemden oluşmaktadır:
 
 1. **Problem 1: HOG Özellik Çıkarımı** - HOG algoritmasının sıfırdan implementasyonu
 2. **Problem 2: Nesne Tespiti** - İnsan tespiti ve özel nesne tespiti (uçak)
@@ -66,7 +66,7 @@ python --version
 
 ```bash
 git clone <repository-url>
-cd Burak-Avcı-hog-odev
+cd hog
 ```
 
 veya ZIP dosyasını indirip açın.
@@ -108,7 +108,7 @@ Eğer hata alırsanız, eksik kütüphaneleri tek tek yükleyin.
 ### Proje Yapısı
 
 ```
-Burak-Avcı-hog-odev/
+hog/
 ├── README.md
 ├── requirements.txt
 ├── src/
